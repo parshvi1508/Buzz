@@ -27,6 +27,13 @@ const Chat = () => {
             </div>
             </div>
             <div className="center">
+            <div className="message own">
+                    <img src="./avatar.png" alt=""/>
+                    <div className="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, labore.</p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
                 <div className="message">
                     <img src="./avatar.png" alt=""/>
                     <div className="texts">
@@ -34,6 +41,15 @@ const Chat = () => {
                         <span>1 min ago</span>
                     </div>
                 </div>
+                <div className="message own">
+                    <img src="./avatar.png" alt=""/>
+                    <div className="texts">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/006/369/467/small_2x/illustration-of-chat-manager-on-mobile-vector.jpg" alt=""></img>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, labore.</p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                
             </div>
             <div className="bottom">
             <div className="icons">
